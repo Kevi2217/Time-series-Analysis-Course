@@ -54,6 +54,18 @@ $$
 \end{align*}
 $$
 
+$$
+\begin{align*}
+    \text{Var}[\widehat{\boldsymbol{\beta}}(\textbf{Y})] &= \text{Var}[(X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1}\textbf{Y}] \\
+    &= (X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1}\text{Var}[\textbf{Y}]((X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1})^\top \\
+    &= (X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1}\sigma^2 \Sigma(X^\top\Sigma^{-1})^\top((X^\top\Sigma^{-1}X)^{-1})^\top \\
+    &= \sigma^2(X^\top\Sigma^{-1}X)^{-1}X^\top(X^\top\Sigma^{-1})^\top((X^\top\Sigma^{-1}X)^{-1})^\top \\
+    &= \sigma^2(X^\top\Sigma^{-1}X)^{-1}(X^\top\Sigma^{-1}X)^\top((X^\top\Sigma^{-1}X)^\top)^{-1} \\
+    &= \sigma^2(X^\top\Sigma^{-1}X)^{-1}
+\end{align*}
+$$
+
+
 which proves that $\widehat{\boldsymbol{\beta}}(\textbf{Y}) \sim \mathcal{N}_k(\boldsymbol{\beta}, {\sigma}^2(X^\top\Sigma^{-1} X)^{-1})$.
 
 ## Exercise 2.
