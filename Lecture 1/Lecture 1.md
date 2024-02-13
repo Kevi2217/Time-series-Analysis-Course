@@ -16,7 +16,8 @@ If ass. (1) is not satisfied $\mathbb{E}[Y_{1}]\neq X^{T}_{i} \beta$, meaning th
 
 Ass. (2) and (3) are needed to create an unique MLE estimator. Since, if $X$ has full rank, the matrix $X^\top\Sigma^{-1}$X is invertible and there exists the unique solution
 
-$$\begin{equation*}
+$$
+\begin{equation*}
     \widehat{\boldsymbol{\beta}}(\textbf{y}) = (X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1}\textbf{y},
 \end{equation*}
 $$
@@ -31,7 +32,8 @@ Note first that $\widehat{\boldsymbol{\beta}}(\textbf{Y}) = (X^\top\Sigma^{-1}X)
 
 By applying the fact that $\mathbb{E}[\textbf{Y}] = X\boldsymbol{\beta}$ and $\text{Var}[\textbf{Y}] = \sigma^2\Sigma$, the expected value and variance can be computed as
 
-$$\begin{align*}
+$$
+\begin{align*}
     \mathbb{E}[\widehat{\boldsymbol{\beta}}(\textbf{Y})] &= \mathbb{E}[(X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1}\textbf{Y}] = (X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1}\mathbb{E}[\textbf{Y}] \\
     &= (X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1}X\boldsymbol{\beta} = \boldsymbol{\beta}
 \end{align*}
@@ -39,7 +41,8 @@ $$
 
 and
 
-$$\begin{align*}
+$$
+\begin{align*}
     \text{Var}[\widehat{\boldsymbol{\beta}}(\textbf{Y})] &= \text{Var}[(X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1}\textbf{Y}] \\
     &= (X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1}\text{Var}[\textbf{Y}]((X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1})^\top \\
     &= (X^\top\Sigma^{-1}X)^{-1}X^\top\Sigma^{-1}\text{Var}[\textbf{Y}](X^\top\Sigma^{-1})^\top((X^\top\Sigma^{-1}X)^{-1})^\top \\
