@@ -59,7 +59,7 @@ $$
 $$
 
 ## Exercise 2.
-![[Pasted image 20240214104606.png|center|500]]
+![image](C:\Users\kluu2\OneDrive - Aalborg Universitet\Desktop\Bachelor 6.sem\Time-series-Analysis-Course\Lecture 2\attachments\Pasted image 20240214104606.png)
 
 ### (a.)
 ![[Pasted image 20240214112013.png|center|400]]
