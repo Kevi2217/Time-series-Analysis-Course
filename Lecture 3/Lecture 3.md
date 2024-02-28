@@ -57,13 +57,15 @@ $$
 \ell(\boldsymbol{\theta}) = - \frac{T}{2}\ln(2\pi)-\frac{T}{2}\ln(\sigma^2) - \sum^T_{t=1} \frac{\epsilon_t^2}{2\sigma^2}.
 $$
 
-
-
-
-
-
 http://course.sdu.edu.cn/G2S/eWebEditor/uploadfile/20140110134920017.pdf
 
 
 ### Exercise 2.
+Consider the case where AR$(2)$ model,
+$$
+y_t = c + \phi_1 y_{t-1} + \phi_2 y_{t-2} +\epsilon_t 
+$$
+ is true. And we have to estimate the parameters of the AR$(1)$ model.
+
+ 
 
