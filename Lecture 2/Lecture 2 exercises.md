@@ -78,3 +78,4 @@ $$
 $$\text{Var}[X_{t}] = \sigma^{2} + \theta_{1} \sigma^{2} + \theta_{2} \sigma^{2}$$
 
 
+
