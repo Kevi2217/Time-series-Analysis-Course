@@ -1,6 +1,5 @@
 # Exercises - Lecture 5
 
-
 ## Analytical exercises
 
 ### Exercise 1.
